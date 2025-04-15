@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+
+form{
+    background-color: aqua;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    height: 200px;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 10px;
+    box-shadow: 1.2px 1.2px 5px rgb(133, 133, 133);
+}
+
+label{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-sizing: border-box;    
+}
+input{
+
+    border-radius: 6px;
+    width: 320px;
+    margin-top: 2.5rem;
+    box-sizing: content-box;
+}
+
+
+button{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: solid white;
+
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    border: solid 5px black;
+    cursor: pointer;
+}
